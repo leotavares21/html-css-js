@@ -1,0 +1,25 @@
+.dynamic-content{
+	display: block;
+	background-image: url(../../images/bg-content.jpg);
+	background-repeat: no-repeat;
+	background-size: 40%;
+	background-position: 720px 130px;
+	background-clip: padding-box;
+	padding: 5vh 0;
+}
+@media(max-width: 1220px){
+	.dynamic-content{
+		background-size: 40%;
+		background-position: right center;
+		margin-left: 2vw;
+		margin-bottom: 15vh;
+	}
+	.dynamic-content p{
+		text-align: justify;
+	}
+	.dynamic-content .container-base .btn-content{
+		position: absolute;
+		margin-top: var(--spacing-medium);
+	}
+
+}

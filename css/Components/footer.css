@@ -1,0 +1,80 @@
+.rodape-content {
+	text-align: center;
+	background-image: url(../../images/purple-wave-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	position: relative;
+	height: 120vh;
+}
+.rodape-content .container-base  .footer-title{
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 15vh;
+}
+.rodape-content .container-base .nav-footer{
+	position: absolute;
+	top: 65%;
+	left: 20%;
+	line-height: var(--spacing-large);
+	color: var(--light-color);
+}
+.rodape-content .container-base .nav-footer ul{
+	margin: 0 var(--spacing-large);
+	text-align: left;
+	float: left;
+}
+.rodape-content .container-base .nav-footer h6{
+	display: flex;
+	justify-content: flex-start;
+	margin: 0px;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+.rodape-content .container-base .nav-footer a{
+	text-decoration: none;
+	color: var(--light-color);
+	font-size: 0.8em;
+}
+.rodape-content .container-base .nav-footer .form-email input{
+	width: 25vw;
+	height: 8vh;
+	border-radius: 5px;
+	border: none;
+	margin: 10px 0 20px 0;
+}
+.rodape-content .container-base .nav-footer .copyright{
+	font-size: 0.7em;
+	width: 30vw;
+	display: block;
+	color: var(--light-color);
+	text-align: left;
+}
+
+
+@media(max-width: 1200px){
+	.rodape-content .container-base .nav-footer{
+		top: 55%;
+		left: 15%;
+		height: auto;
+	}
+	.rodape-content .container-base .nav-footer{
+		line-height: 2.5vh;
+	}
+	.rodape-content .container-base .nav-footer ul{
+		width: 30vw;
+		height: 20vh;
+		line-height: 3vh;
+		margin: 0 15px;
+	}
+	.rodape-content .container-base .nav-footer .form-email input{
+		width: 40vw;
+		height: 5vh;
+	}
+	.rodape-content .container-base .nav-footer .copyright{
+		font-size: 0.5em;
+	}
+}
+
+	
